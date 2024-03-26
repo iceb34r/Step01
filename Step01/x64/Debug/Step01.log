@@ -1,0 +1,10 @@
+﻿  pch.cpp
+  dllmain.cpp
+  HelloWorld.cpp
+  Создание кода...
+Q:\VC2019_TODO_DELETE\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(1363,5): warning MSB8012: TargetPath(C:\Users\curry\source\repos\Step01\x64\Debug\Step01.dll) не соответствует значению свойства выходного файла (C:\Users\curry\source\repos\Step01\x64\Debug\Step01.arx) для Linker. Это может привести к неправильной сборке проекта. Чтобы исправить это, убедитесь, что значения свойств $(OutDir), $(TargetName) и $(TargetExt) соответствуют значению, указанному в %(Link.OutputFile).
+Q:\VC2019_TODO_DELETE\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(1364,5): warning MSB8012: TargetExt(.dll) не соответствует значению свойства выходного файла (.arx) для Linker. Это может привести к неправильной сборке проекта. Чтобы исправить это, убедитесь, что значения свойств $(OutDir), $(TargetName) и $(TargetExt) соответствуют значению, указанному в %(Link.OutputFile).
+     Создается библиотека C:\Users\curry\source\repos\Step01\x64\Debug\Step01.lib и объект C:\Users\curry\source\repos\Step01\x64\Debug\Step01.exp
+MSVCRTD.lib(initializers.obj) : warning LNK4098: библиотека по умолчанию "msvcrt.lib" конфликтует с использованием других библиотек; используйте /NODEFAULTLIB:library
+rxapi.lib(libinit.obj) : warning LNK4099: "rxapi.pdb" PDB не найден с "rxapi.lib(libinit.obj)" или на "C:\Users\curry\source\repos\Step01\x64\Debug\rxapi.pdb"; компоновка объекта выполняется как при отсутствии отладочных данных
+  Step01.vcxproj -> C:\Users\curry\source\repos\Step01\x64\Debug\Step01.dll
